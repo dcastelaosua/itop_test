@@ -1,0 +1,40 @@
+/*!
+ * Copyright (c) 2015 - 2019 Molkobain.
+ *
+ * This file is part of licensed extension.
+ *
+ * Use of this extension is bound by the license you purchased. A license grants you a non-exclusive and non-transferable right to use and incorporate the item in your personal or commercial projects. There are several licenses available (see https://www.molkobain.com/usage-licenses/ for more informations)
+ */
+.molkobain-caselogs-toggler {
+  /* Reset for admin console mostly */
+  box-sizing: border-box;
+  padding: 4px 5px;
+  text-align: left;
+  color: #777;
+  background-color: #f2f2f2;
+}
+.molkobain-caselogs-toggler * {
+  box-sizing: border-box;
+}
+.molkobain-caselogs-toggler *:before, .molkobain-caselogs-toggler *:after {
+  box-sizing: border-box;
+}
+.molkobain-caselogs-toggler .mct-togglers > span.mct-button {
+  cursor: pointer;
+}
+.molkobain-caselogs-toggler .mct-togglers > span.mct-separator {
+  margin: 0 0.7em;
+  font-size: 0.8em;
+}
+.molkobain-caselogs-toggler .mct-messages-count > span {
+  margin-left: 0.5em;
+}
+/* Portal tuning*/
+.form-group .molkobain-caselogs-toggler {
+  margin-left: 10px;
+  display: inline-block;
+  background-color: transparent;
+}
+.form-group .molkobain-caselogs-toggler .mct-togglers > span.mct-button {
+  vertical-align: middle;
+}

@@ -1,0 +1,30 @@
+<?php 
+// Interface: Combodo\iTop\Application\UI\Base\iUIBlockFactory
+// Excluded paths: /lib/,/node_modules/,/test/,/tests/,/vendor/
+return array (
+  0 => 'Combodo\\iTop\\Application\\UI\\Base\\Component\\Input\\Select\\SelectUIBlockFactory',
+  1 => 'Combodo\\iTop\\Application\\UI\\Base\\Component\\Alert\\AlertUIBlockFactory',
+  2 => 'Combodo\\iTop\\Application\\UI\\Base\\Component\\ButtonGroup\\ButtonGroupUIBlockFactory',
+  3 => 'Combodo\\iTop\\Application\\UI\\Base\\Component\\Button\\ButtonUIBlockFactory',
+  4 => 'Combodo\\iTop\\Application\\UI\\Base\\Component\\CollapsibleSection\\CollapsibleSectionUIBlockFactory',
+  5 => 'Combodo\\iTop\\Application\\UI\\Base\\Component\\DataTable\\DataTableUIBlockFactory',
+  6 => 'Combodo\\iTop\\Application\\UI\\Base\\Component\\FieldBadge\\FieldBadgeUIBlockFactory',
+  7 => 'Combodo\\iTop\\Application\\UI\\Base\\Component\\FieldSet\\FieldSetUIBlockFactory',
+  8 => 'Combodo\\iTop\\Application\\UI\\Base\\Component\\Field\\FieldUIBlockFactory',
+  9 => 'Combodo\\iTop\\Application\\UI\\Base\\Component\\Form\\FormUIBlockFactory',
+  10 => 'Combodo\\iTop\\Application\\UI\\Base\\Component\\Input\\FileSelect\\FileSelectUIBlockFactory',
+  11 => 'Combodo\\iTop\\Application\\UI\\Base\\Component\\Input\\InputUIBlockFactory',
+  12 => 'Combodo\\iTop\\Application\\UI\\Base\\Component\\Input\\Select\\SelectOptionUIBlockFactory',
+  13 => 'Combodo\\iTop\\Application\\UI\\Base\\Component\\Input\\Set\\SetUIBlockFactory',
+  14 => 'Combodo\\iTop\\Application\\UI\\Base\\Component\\Panel\\PanelUIBlockFactory',
+  15 => 'Combodo\\iTop\\Application\\UI\\Base\\Component\\Spinner\\SpinnerUIBlockFactory',
+  16 => 'Combodo\\iTop\\Application\\UI\\Base\\Component\\Template\\TemplateUIBlockFactory',
+  17 => 'Combodo\\iTop\\Application\\UI\\Base\\Component\\Title\\TitleUIBlockFactory',
+  18 => 'Combodo\\iTop\\Application\\UI\\Base\\Component\\Toolbar\\Separator\\ToolbarSeparatorUIBlockFactory',
+  19 => 'Combodo\\iTop\\Application\\UI\\Base\\Component\\Toolbar\\ToolbarSpacer\\ToolbarSpacerUIBlockFactory',
+  20 => 'Combodo\\iTop\\Application\\UI\\Base\\Component\\Toolbar\\ToolbarUIBlockFactory',
+  21 => 'Combodo\\iTop\\Application\\UI\\Base\\Layout\\MultiColumn\\Column\\ColumnUIBlockFactory',
+  22 => 'Combodo\\iTop\\Application\\UI\\Base\\Layout\\MultiColumn\\MultiColumnUIBlockFactory',
+  23 => 'Combodo\\iTop\\Application\\UI\\Base\\Layout\\UIContentBlockUIBlockFactory',
+  24 => 'Combodo\\iTop\\Application\\UI\\Links\\Set\\LinkSetUIBlockFactory',
+);

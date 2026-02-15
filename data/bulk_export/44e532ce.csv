@@ -1,0 +1,2 @@
+"Code","Name","Obsolescence date","Obsolete","Overview","Status","id (Primary Key)","Delivery model","Delivery model->Name","Delivery model->Full name","Delivery model->Organization","Delivery model->Organization Name","Parent","Parent->Name","Parent->Full name","Parent->Obsolete","Parent->Code"
+"MSFCode01","Médicos Sin Fronteras",,No,,"Active",2,2,"MSF Delivery Model","MSF Delivery Model",2,"Médicos Sin Fronteras",1,"SolidLines Tech Services","SolidLines Tech Services",No,"SLTSCode01"

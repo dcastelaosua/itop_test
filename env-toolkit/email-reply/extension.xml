@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension format="1.0">
+	<extension_code>combodo-send-updates-by-email</extension_code>
+	<company>Combodo SARL</company>
+	<author><![CDATA[Timothée]]></author>
+	<label><![CDATA[Send updates by email]]></label>
+	<description><![CDATA[Send an email to pre-configured contacts when a ticket log is updated]]></description>
+	<version>1.4.5</version>
+	<modules type="array">
+		<module>
+			<id>email-reply</id>
+			<version>tags/1.4.5</version>
+		</module>
+	</modules>
+	<release_date>2023-01-03</release_date>
+	<version_description><![CDATA[
+* N°7709 - Updated deprecated calls for iTop 3.2 compatibility
+      ]]></version_description>
+	<itop_version_min>2.7.0</itop_version_min>
+	<status>stable</status>
+	<mandatory>false</mandatory>
+	<more_info_url>https://wiki.openitop.org/doku.php?id=extensions:email_reply</more_info_url>
+</extension>

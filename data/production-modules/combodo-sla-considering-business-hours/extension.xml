@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension format="1.0">
+	<extension_code>combodo-sla-considering-business-hours</extension_code>
+	<company>Combodo SARL</company>
+	<author><![CDATA[Guillaume]]></author>
+	<label><![CDATA[SLA considering business hours]]></label>
+	<description><![CDATA[Compute SLAs taking into account service coverage window and holidays]]></description>
+	<version>2.3.3</version>
+	<modules type="array">
+		<module>
+			<id>combodo-sla-computation</id>
+			<version>tags/2.4.3</version>
+		</module>
+		<module>
+			<id>combodo-coverage-windows-computation</id>
+			<version>tags/2.1.2</version>
+		</module>
+	</modules>
+	<release_date>2024-07-30</release_date>
+	<version_description><![CDATA[
+* N°7617 - Fix SLT calculation with coverage window in PHP 8.2+
+            ]]></version_description>
+	<itop_version_min>2.4.0</itop_version_min>
+	<status>stable</status>
+	<mandatory>false</mandatory>
+	<more_info_url>https://wiki.openitop.org/doku.php?id=extensions:sla-computation</more_info_url>
+</extension>

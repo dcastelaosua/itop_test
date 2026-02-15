@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension format="1.0">
+	<extension_code>itop-portal-new-look-for-3.2-lts</extension_code>
+	<company>Combodo SARL</company>
+	<author><![CDATA[Stephen,Vincent]]></author>
+	<label><![CDATA[Portal new look for 3.2 LTS]]></label>
+	<description><![CDATA[Refresh portal default theme]]></description>
+	<version>1.0.1</version>
+	<modules type="array">
+		<module>
+			<id>itop-portal-new-look-for-3.2-lts</id>
+			<version>tags/1.0.1</version>
+		</module>
+	</modules>
+	<release_date>2025-07-28</release_date>
+	<version_description><![CDATA[
+* N°8450 - Allow Portal new look on any portal
+* N°8453 - Fix missing template for the new portal
+* N°8552 - Fix Search Brick in Aggregate brick
+* Fix browse brick items color not being overloadable]]></version_description>
+	<itop_version_min>3.2.1</itop_version_min>
+	<itop_version_max></itop_version_max>
+	<status></status>
+	<mandatory>false</mandatory>
+	<more_info_url>https://wiki.openitop.org/doku.php?id=extensions:itop-portal-new-look-for-3-2-lts</more_info_url>
+</extension>

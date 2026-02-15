@@ -1,0 +1,111 @@
+/*!
+ * Copyright (C) 2012-2018 Combodo SARL
+ *
+ * This file is part of iTop.
+ *
+ * iTop is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * iTop is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License
+ * along with iTop. If not, see <http://www.gnu.org/licenses/>
+ */
+
+
+/* For search forms */
+.SearchDrawer {
+  position: relative;
+  padding: 32px 16px 24px 16px;
+  background-color: white;
+  border: solid 1px #ccd4db;
+  border-radius: 5px;
+  &::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    background-color: #00aac1;
+    content: "";
+    width: 100%;
+    height: 8px;
+    padding-bottom: 8px;
+  }
+  input:not([type="submit"]){
+    height: 30px;
+    background-color: white;
+    color: #212934;
+    padding: 0px 10px;
+    border: 1px solid #aebecd;
+    border-radius: 3px;
+    &:active{
+      border: 1px solid #dd6c20;
+    }
+  }
+}
+.SearchDrawer .SearchAttribute{
+  > .field_input_zone{
+    display: inline-block;
+    position: relative;
+    .field_input_btn{
+      display: inline-block;
+      height: 100%;
+      .ibo-input-select--action-button{
+        height: 100%;
+      }
+    }
+    > .field_select_wrapper{
+      display: inline-block;
+    }
+  }
+}
+.DrawerClosed {
+  display: none;
+}
+.DrawerHandle {
+  padding: 8px;
+  background-color: white;
+  border: solid 1px #ccd4db;
+  cursor: pointer;
+  text-align: center;
+  /* center the block */
+  max-width: 130px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+  margin-top: -3px;
+  border-radius: 5px;
+  &::after{
+    font-family: "Font Awesome 5 Free";
+    content: '\f0d7'; // caret-down
+    font-weight: 900;
+    padding: 0px 5px;
+  }
+}
+
+div.HRDrawer {
+display: none;
+}
+
+.SearchAttribute button.ui-multiselect .fas {
+  float: right;
+  padding-left: 0px;
+  padding-right: 5px;
+}
+.field_input_extkey .field_input_btn{
+position: absolute;
+display: inline-flex !important;
+  right: 2px;
+}
+.field_select_wrapper{
+  display:inline-block;
+}
+.field_select_wrapper button.ui-multiselect{
+  padding-right: 25px !important;
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itop_design xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  version="1.0">
+  <constants>
+  </constants>
+  <classes>
+  </classes>
+  <menus>
+    <menu xsi:type="WebPageMenuNode" id="DataSourcesDashboard" _delta="define">
+      <parent>ConfigurationTools</parent>
+      <url>$pages/exec.php?exec_module=itop-synchro-dashboard&amp;exec_page=dashboard.php&amp;c[menu]=DataSourcesDashboard</url>
+      <rank>25</rank>
+      <enable_class>SynchroDataSource</enable_class>
+      <enable_action>UR_ACTION_READ</enable_action>
+    </menu>
+  </menus>
+  <user_rights>
+    <groups>
+    </groups>
+    <profiles>
+    </profiles>
+  </user_rights>
+</itop_design>

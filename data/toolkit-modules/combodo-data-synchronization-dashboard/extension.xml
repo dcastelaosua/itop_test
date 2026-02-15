@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension format="1.0">
+	<extension_code>combodo-data-synchronization-dashboard</extension_code>
+	<company>Combodo SARL</company>
+	<author><![CDATA[Odain]]></author>
+	<label><![CDATA[Data synchronization dashboard]]></label>
+	<description><![CDATA[Get an overview of all your data synchronizations at a glance]]></description>
+	<version>1.2.2</version>
+	<modules type="array">
+		<module>
+			<id>itop-legacy-search-base</id>
+			<version>tags/1.1.2</version>
+		</module>
+		<module>
+			<id>itop-synchro-dashboard</id>
+			<version>tags/1.2.2</version>
+		</module>
+	</modules>
+	<release_date>2023-04-05</release_date>
+	<version_description><![CDATA[
+       * N°5615 - Base Data synchronization dashboard on DataSynchro class rights instead of admin rights
+      ]]></version_description>
+	<itop_version_min>2.5.0</itop_version_min>
+	<status>stable</status>
+	<mandatory>false</mandatory>
+	<more_info_url></more_info_url>
+</extension>

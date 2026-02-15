@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension format="1.0">
+	<extension_code>combodo-customized-request-forms</extension_code>
+	<company>Combodo SARL</company>
+	<author><![CDATA[Eric]]></author>
+	<label><![CDATA[Customized request forms]]></label>
+	<description><![CDATA[Define personalized request forms based on the service catalog. Add extra fields for a given type of
+        request.
+    ]]></description>
+	<version>2.4.6</version>
+	<modules type="array">
+		<module>
+			<id>templates-base</id>
+			<version>tags/3.5.4</version>
+		</module>
+		<module>
+			<id>itop-request-template</id>
+			<version>tags/2.3.6</version>
+		</module>
+		<module>
+			<id>itop-request-template-portal</id>
+			<version>tags/1.0.3</version>
+		</module>
+	</modules>
+	<release_date>2025-03-07</release_date>
+	<version_description><![CDATA[
+                * N°8206 - Slow create or edit ticket when using request templates
+            ]]></version_description>
+	<itop_version_min>2.7.0</itop_version_min>
+	<itop_version_max></itop_version_max>
+	<status></status>
+	<mandatory>false</mandatory>
+	<more_info_url>https://wiki.openitop.org/doku.php?id=extensions:request-templates</more_info_url>
+</extension>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension format="1.0">
+	<extension_code>combodo-configurator-for-automatic-object-creation</extension_code>
+	<company>Combodo SARL</company>
+	<author><![CDATA[Vincent]]></author>
+	<label><![CDATA[Configurator for automatic object creation]]></label>
+	<description><![CDATA[Templating based on existing objects.]]></description>
+	<version>1.2.6</version>
+	<modules type="array">
+		<module>
+			<id>itop-object-copier</id>
+			<version>tags/1.4.6</version>
+		</module>
+		<module>
+			<id>itop-stencils</id>
+			<version>tags/1.0.9</version>
+		</module>
+	</modules>
+	<release_date>2025-02-15</release_date>
+	<version_description><![CDATA[
+* N°8194 - Restore retrofit not executed with itop 3.2.1
+            ]]></version_description>
+	<itop_version_min>2.7.0</itop_version_min>
+	<itop_version_max></itop_version_max>
+	<status></status>
+	<mandatory>false</mandatory>
+	<more_info_url>https://wiki.openitop.org/doku.php?id=extensions:itop-stencils</more_info_url>
+</extension>
